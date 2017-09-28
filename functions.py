@@ -10,10 +10,10 @@
 7765
 
 >>> choose_longest("Greg", "Rooney")
-Rooney
+'Rooney'
 
 >>> choose_longest("Greg", "Rooney", "Philip", "Maximus", "Gabrielle")
-Gabrielle
+'Gabrielle'
 
 >>> choose_longest("Greg", [0, 0, 0, 0, 4])
 [0, 0, 0, 0, 4]
@@ -31,4 +31,4 @@ def combine_many(*args):
     print(combination)
 
 def choose_longest(*args):
-    print(max(args, key=len))
+    return(max(args, key=len))
