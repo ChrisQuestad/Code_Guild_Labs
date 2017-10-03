@@ -15,3 +15,6 @@ shopping_list = soup.find(class_='BodyText')
 for item in shopping_list:
     shopping_list_items = shopping_list.find_all(item)
     print(shopping_list_items)
+
+# get- getting information
+# post- sending information
