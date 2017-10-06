@@ -1,6 +1,14 @@
 import requests
 from bs4 import BeautifulSoup
+import csv
+from lxml import html
+
+# r = requests.post('http://api.openweathermap.org/data/2.5/weather', params=package)
+# data = r.json()
+
+# Get users Shopping List
 shopping = input('Please enter your items: ')
+# Append Items to empty list
 shopping_list = []
 
 for item in shopping:
@@ -8,13 +16,4 @@ for item in shopping:
     break
 print(shopping_list)
 
-
-shopping_list = soup.find(class_='BodyText')
-
-
-for item in shopping_list:
-    shopping_list_items = shopping_list.find_all(item)
-    print(shopping_list_items)
-
-# get- getting information
-# post- sending information
+# Scrape data for users items
