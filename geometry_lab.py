@@ -36,9 +36,9 @@ class Rectangle():
         return self.value == other
 
     def center(self, width, height):
-        new_point_x = self.x + (width/2)
-        new_point_y = self.x + (height/2)
-        return Point(new_point_x, new_point_y)
+        new_point_x = width / 2
+        new_point_y = height / 2
+        return Points(new_point_x, new_point_y)
 
     def within(self, point):
         return (self.top_left.x <= point.x <= self.top_left.x + self.width and self.top_left.y <= point.y <= self.top_left.y + self.height)
@@ -50,4 +50,5 @@ class Rectangle():
 
 r = Rectangle(Points(4, 5), 36, 18 )
 print(r.within(Points(9,11)))
+print(r.center(36, 18))
 print(r)
