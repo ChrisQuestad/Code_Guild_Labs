@@ -1,0 +1,12 @@
+color = input ("Give me a Color: ")
+superlative = input ("Give me a Superlative ending in est: ")
+adjective = input ("Give me an Adjective: ")
+bodypart = input ("Give me a bodypart (plural): ")
+bdypart = input ("Give me a body part: ")
+animal = input ("Give me an animal (plural): ")
+noun = input ("Give me a noun: ")
+adjctive = input ("Give me an adjective: ")
+adjctve = input ("Give me an adjective: ")
+adjectve = input ("Give me an adjective: ")
+
+print("The {} Dragon is the {} Dragon of all. It has {} {}, and a {} shaped like a {}. It loves to eat {}, although it will feast on nearly anything. It is {} and {}. You must be {} around it, or you may end up as its meal!.format(color, superlative, adjective, bodypart, bdypart, noun, animal, adjctive, adjctve, adjectve)
