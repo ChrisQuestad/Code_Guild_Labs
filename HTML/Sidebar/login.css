@@ -1,0 +1,74 @@
+
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+
+body {
+  display: flex;
+  justify-content: center;
+  background-image: url(https://static.pexels.com/photos/6895/sunset-flag-america-fields.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  min-height: 100%;
+  width: 100%;
+
+}
+#content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 80%;
+  height: 100%;
+  flex-direction: column;
+  
+
+}
+
+.sidebar {
+  flex-basis: 12%;
+  flex-wrap: nowrap;
+  line-height: 25px;
+  background-color: rgba(0, 0, 0, 0.15);
+
+}
+
+.sidebar ul > li> a {
+  text-decoration: none;
+  color: black;
+}
+
+.form {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.15);
+  font-weight: bold;
+  color: white;
+
+
+}
+
+
+
+form #text.description {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.footer {
+  width: 50%;
+  height: 130px;
+  background-image: url(https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/14705786_708627385951180_8731641103828919656_n.jpg?oh=5b942ec8b257625f2cf11db71ea40a69&oe=5A7222BD);
+  background-size: 100% 100%;
+
+}

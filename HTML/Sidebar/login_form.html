@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="login.css">
+  <meta charset="utf-8">
+  <title>Login Form</title>
+</head>
+<body>
+  <div class="flex-container">
+    <div class="sidebar">
+      <nav class="vertical">
+        <ul>
+          <li>
+            <a href="http://www.mendleton.com/resources">Get Help Now</a>
+          </li>
+          <li>
+            <a href="http://www.mendleton.com/">About Mendleton</a>
+          </li>
+          <li>
+            <a href="https://www.va.gov/">Veteran Affairs</a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/MendletonFoundation/">Contact</a>
+          </li>
+          <li>
+            <a href="#">Settings</a>
+          </li>
+          <li>
+            <a href="#">Log Out</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div id="content">
+      <div class="form" align="center">
+        <form name="Login">
+          First Name:<br>
+          <input type="text" name="firstname" required><br>
+
+          Last Name:<br>
+          <input type="text" name="lastname" required><br>
+
+          Phone Number:<br>
+          <input type="text" name="phone" required><br>
+
+          E-mail:<br>
+          <input type="text" name="email" required><br>
+
+          Location:<br>
+          <input type="text" name="location" required><br>
+
+          Please give us a short description of yourself (500):<br>
+          <textarea name="text_name" class="description" maxlength="500"></textarea><br>
+
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+      <div class="footer">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
